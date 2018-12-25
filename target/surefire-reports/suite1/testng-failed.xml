@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite1]">
+  <parameter name="browser" value="chrome"/>
+  <test name="testpackages(failed)" preserve-order="true">
+    <classes>
+      <class name="com.sample.selenium.testng.SampleClass2">
+        <methods>
+          <include name="b_m1"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="c_m2"/>
+          <include name="m7"/>
+          <include name="m7"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass2 -->
+      <class name="com.sample.selenium.testng.SampleClass">
+        <methods>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="c_m2"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass -->
+      <class name="com.sample.selenium.testng.SampleClass3">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="c_m2"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass3 -->
+    </classes>
+  </test> <!-- testpackages(failed) -->
+  <test name="testing1(failed)" preserve-order="true">
+    <classes>
+      <class name="com.sample.selenium.testng.SampleClass2">
+        <methods>
+          <include name="b_m1"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="c_m2"/>
+          <include name="m7"/>
+          <include name="m7"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass2 -->
+      <class name="com.sample.selenium.testng.SampleClass">
+        <methods>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="c_m2"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass -->
+      <class name="com.sample.selenium.testng.SampleClass3">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="c_m2"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass3 -->
+    </classes>
+  </test> <!-- testing1(failed) -->
+  <test name="testing2(failed)" preserve-order="true">
+    <classes>
+      <class name="com.sample.selenium.testng.SampleClass2">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="m7"/>
+          <include name="m7"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass2 -->
+      <class name="com.sample.selenium.testng.SampleClass">
+        <methods>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="m7"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="c_m2"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass -->
+      <class name="com.sample.selenium.testng.SampleClass3">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="m7"/>
+          <include name="m7"/>
+        </methods>
+      </class> <!-- com.sample.selenium.testng.SampleClass3 -->
+    </classes>
+  </test> <!-- testing2(failed) -->
+</suite> <!-- Failed suite [suite1] -->

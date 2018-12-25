@@ -1,0 +1,41 @@
+<suite name="suite1">
+    
+    
+    <parameter name="browser" value="chrome"></parameter>
+    
+    
+   <test name="testpackages">
+        <packages>
+            <package name="com.sample.selenium.testng"></package>
+        </packages>
+    </test>
+    
+    <test name="testing1">
+        <classes>
+            <class name="com.sample.selenium.testng.SampleClass"></class>
+            <class name="com.sample.selenium.testng.SampleClass2"></class>
+            <class name="com.sample.selenium.testng.SampleClass3"></class>
+        </classes>
+    </test> 
+    
+    <test name="testing2">
+        <classes>
+            <class name="com.sample.selenium.testng.SampleClass">
+                <methods><exclude name="d_m5"></exclude></methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="run_groups">
+         <groups>
+		    <run>
+		      <include name="sanity"  />
+		    </run>
+		  </groups>
+		  
+         <packages>
+            <package name="com.sample.selenium.testng"></package>
+        </packages>
+    </test>
+    
+</suite>
