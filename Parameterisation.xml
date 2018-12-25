@@ -1,0 +1,11 @@
+<suite name="suite1">
+    
+    <parameter name="browser" value="chrome"></parameter>
+    
+    <test name="testpackages">
+        <classes>
+            <class name="com.sample.selenium.testng.XmlParameterSample"></class>
+        </classes>
+    </test>
+    
+</suite>
